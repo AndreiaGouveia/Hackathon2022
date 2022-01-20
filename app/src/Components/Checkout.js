@@ -31,7 +31,7 @@ class Checkout extends React.Component {
   handleClick = (id) => {
     this.props.addToCart(id);
   };
-  
+
   render() {
     console.log(this.props.cartItems);
 
@@ -92,8 +92,8 @@ class Checkout extends React.Component {
             <Typography id="modal-modal-title" variant="h6" component="h2">
               Your Shopping Cart
             </Typography>
-            {!this.props.total_items ? (
-              this.props.items.map((value) => (
+            {this.props.total>0 ? (
+              this.props.cartItems.map((value) => (
                 <div className="product">
                   <h3>id: {value.id}</h3>
                   <h3>x{value.quantity}</h3>

@@ -1,0 +1,108 @@
+#content{
+    font-family: Roboto;
+    border: 1px solid rgb(5, 151, 103);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: white;
+    margin:0;
+    padding:3rem;
+}
+
+#vendorInfo{
+    margin: 4rem 2rem 2rem 2rem
+}
+
+#vendorInfo > :first-child{
+    display: flex;
+    flex-direction: row;
+}
+
+#vendorInfo > :first-child > :nth-child(2){
+    margin-left: 2rem;
+}
+#vendorInfo > :first-child > :nth-child(2) > h3:nth-child(2){
+    color: rgb(124, 124, 124);
+}
+#vendorInfo > :first-child > :nth-child(2) > h3:nth-child(3){
+    color: rgb(124, 124, 124);
+}
+
+#vendorInfo > :last-child{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#vendorInfo > :first-child >:nth-child(2) >  div.labels{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#vendorInfo > :first-child >:nth-child(2) >  div.labels > * {
+    margin: 0 0.5rem;
+}
+
+#productsSection{
+    margin: 0 2rem 2rem 2rem;
+}
+
+#productsSection > :first-child{
+    color: rgb(124, 124, 124);
+}
+
+#productsList > .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid rgb(5, 151, 103);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#productsList > .product > :first-child > p {
+    margin: 0;
+}
+#productsList > .product > :first-child > p:first-child {
+    font-weight: bolder;
+}
+#productsList > .product > :first-child > p:nth-child(2) {
+    color: rgb(124, 124, 124);
+}
+
+#productsList > * > :first-child > div.labels{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#productsList > * > :first-child > div.labels > * {
+    margin: 0 0.5rem;
+}
+
+#productsList > .product > :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#productsList > .product > :nth-child(2) > * {
+    margin: 0.25rem 0 ;
+}
+
+#productsList > .product > :nth-child(2) > :first-child {
+    color: green;
+    border-color: green;
+}
+
+#productsList > .product > :nth-child(2) > :nth-child(2) {
+    color: rgb(0, 110, 255);
+    border-color: rgb(0, 110, 255);
+}
+
+#shoppingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
