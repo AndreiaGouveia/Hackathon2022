@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  --fblue : #2a4d69;
+  --sblue: #4b86b4;
+  --tblue: #adcbe3;
+  --foblue: #e7eff6;
+  --fiblue: #63ace5;
+}
+
+.content {
+  flex: 1 0 auto;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
+}
