@@ -1,0 +1,71 @@
+#Carousel{
+    background: linear-gradient(180deg,rgb(71, 157, 255) 35%, rgb(12, 201, 100) 100%);
+}
+
+#Banner {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#Banner img {
+    width: 45%;
+}
+#BannerText {
+    margin: 2rem;
+    color: darkslategray;
+    font-weight:bold;
+    font-family: Roboto;
+}
+
+#BannerText a{
+    color:rgb(21, 172, 91);
+}
+
+#BannerText b{
+    color:rgb(21, 172, 91);
+}
+
+#BannerText h1 {
+    font-family: Roboto;
+}
+
+#BannerText h2 {
+    font-family: Roboto;
+}
+
+#BannerText h3 {
+    font-family: Roboto;
+}
+
+#CotM-title {
+    color:seagreen;
+}
+
+#CotM {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin:0;
+    padding-top: 2rem;
+    font-family: Roboto;
+    color: darkslategray;
+}
+
+#Stores {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.indItem {
+    flex-basis: 33.333333%;
+    margin:1rem;
+    padding: 1rem
+}
