@@ -17,13 +17,14 @@ Click the following link to view our video demo:
 https://drive.google.com/file/d/1ZMhkQxAK8zk99p0dIhDxG4EdvplaxCtp/view?usp=sharing
 
 ### Cool features
-- Rating local vendors
-- Labelling both vendors and products
+- Rating local vendors.
+- Labelling both vendors and products.
 - Giving higher visibility to vendors who are independent, more ethical and local.
+- 
 
 ### Future features
-- Pay forward
-- Customers can gain karma points to have benefits  (by donating groceries to those in need)
+- Clients can pay forward to help people with less financial power.
+- Customers can gain karma points to have benefits  (by donating groceries to those in need).
 
 ## Conclusion
 Unfortunately, due to the ammount of college exams, reports and projects we had to develop in the last 3 days, we were not able to implement all the features we desired. However, we believe in this idea and in the impac
