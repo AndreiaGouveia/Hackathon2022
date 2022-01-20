@@ -8,6 +8,7 @@ import Rating from "@material-ui/lab/Rating";
 import { Link } from "react-router-dom";
 import Carousel from "react-material-ui-carousel";
 import Chip from "@material-ui/core/Chip";
+import Spinner from "./Spinner";
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -33,17 +34,6 @@ class HomePage extends React.Component {
         }))
       );
   };
-  /*{_id: '61e8be1610316172ff9ee81e', name: 'Biobrassica', district: 'Porto', local: 'Porto', description: 'Somos especialistas em Bio.\nSaúde, Ecologia, Justiça, Precaução', …}
-categories: (4) ['Vegan', 'Bio', 'Ecológico', 'Comércio justo']
-dateOfRegistry: "2022-01-20T00:00:00.000Z"
-description: "Somos especialistas em Bio.\nSaúde, Ecologia, Justiça, Precaução"
-district: "Porto"
-local: "Porto"
-name: "Biobrassica"
-rating: 5
-typeOfEntity: "Loja"
-_id: "61e8be1610316172ff9ee81e"
-[[Prototype]]: Object*/
 
   render() {
     return (
@@ -97,7 +87,7 @@ _id: "61e8be1610316172ff9ee81e"
         <h2>Lojas na tua localidade</h2>
         <div id="Stores">
           {this.state.isLoading ? (
-            <h1>hey</h1>
+            <Spinner customText="Loading..."/>
           ) : (
             this.state.vendors.map((value, index) => (
               <>

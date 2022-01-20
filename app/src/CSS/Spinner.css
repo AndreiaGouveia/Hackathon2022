@@ -1,25 +1,20 @@
 .spinner-container
 {
-    background-color: #fff;
-    
-    z-index: 99;
-    position: fixed;
+    background-color: whitesmoke;
     width: 100px;
     padding: 10px;
-    top: 50%;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     left: 50%;
-    margin-top: -100px; 
-    margin-left: -50px;
     border-radius: 0.5rem;
 
 }
 
 .spinner-container p
 {
+    font-family: Roboto;
     text-align: center;
     margin: 5px 0 0 0;
 }
