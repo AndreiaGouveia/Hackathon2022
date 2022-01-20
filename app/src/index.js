@@ -6,7 +6,7 @@ import StorePage from "./Components/StorePage";
 import StoresPage from "./Components/StoresPage";
 import Checkout from "./Components/Checkout";
 import Layout from "./Components/Layout";
-// import cartReducer from "./Components/reducers/cartReducer";
+import cartReducer from "./Components/reducers/cartReducer";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 import { createBrowserHistory } from "history";
@@ -14,10 +14,10 @@ import { createBrowserHistory } from "history";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const customHistory = createBrowserHistory();
-// const store = createStore(cartReducer);
+const store = createStore(cartReducer);
 
 ReactDOM.render(
-  // <Provider store={store}>
+  <Provider store={store}>
     <Router history={customHistory}>
       <Layout>
         <Routes>
@@ -27,7 +27,7 @@ ReactDOM.render(
           <Route exact path="/checkout" element={<Checkout />} />
         </Routes>
       </Layout>
-    </Router>,
-  // </Provider>
+    </Router>
+  </Provider>,
   document.getElementById("root")
 );
