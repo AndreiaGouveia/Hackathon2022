@@ -14,7 +14,7 @@ mongoose.connect(process.env.DB_URI, {useNewUrlParser: true, useUnifiedTopology:
     .catch(err => console.log(err));;
 
 app.get('/', (req, res) => {        
-    res.send('GET request to homepage');     
+    res.send('Hello world ;)');     
                                                         
 });
 

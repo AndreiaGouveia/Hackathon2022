@@ -69,3 +69,11 @@ h2 {
     margin:1rem;
     padding: 1rem
 }
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
