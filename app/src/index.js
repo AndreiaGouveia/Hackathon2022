@@ -24,6 +24,7 @@ ReactDOM.render(
           <Route exact path="/" element={<HomePage />} />
           {/* <Route exact path="/stores" element={<StoresPage />} />
           <Route path="/stores" element={<StorePage />} /> */}
+          <Route exact path="/stores/:id" element={<StorePage/>} />
           <Route exact path="/checkout" element={<Checkout />} />
         </Routes>
       </Layout>
