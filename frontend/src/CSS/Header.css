@@ -1,0 +1,9 @@
+.color-nav{
+    background-color: var(--fblue);
+}
+
+.logo {
+    height: 5rem;
+    width: 5rem;
+    padding: 0;
+  }
